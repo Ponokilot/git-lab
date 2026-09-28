@@ -12,3 +12,6 @@ def divide(a, b):
 
 def subtract(a, b):
     return a - b
+
+def mod(a, b):
+    return a % b
