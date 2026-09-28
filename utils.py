@@ -7,12 +7,16 @@ def add(a, b):
 def multiply(a, b):
     return a * b
 
-def divide(a, b):
-    return a / b
-
 def subtract(a, b):
     return a - b
 
+def divide(a, b):
+    return a / b
+
+def mod(a, b):
+    return a % b
+
 def factorial(a):
-    if a <= 1: return 1
+    if a <= 1:
+        return 1
     return a * factorial(a - 1)
